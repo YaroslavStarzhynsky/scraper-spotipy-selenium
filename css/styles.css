@@ -1,0 +1,50 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tracks-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.track {
+    height: 150px;
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.track img {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.track h2 {
+    margin: 10px 0 10px 20px;
+}
+
+.track p {
+    margin: 0 0 0px 20px;
+}
+.track a {
+    text-decoration: none;
+    color: black;
+}
+
+.track a:hover {
+    color: black;
+}
